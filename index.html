@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icons/RCB-NewLOGO.png" />
+    <title>RCB Fan Page</title>
+  </head>
+  <body>
+    <div id="top" class="heading">
+      <ul>
+        <li>
+          <img id="logo" src="icons/RCB-NewLOGO.png" /><span class="tag"
+            >#PLAY BOLD</span
+          >
+        </li>
+        <li><a id="home" href="#top">HOME</a></li>
+        <li><a id="fixCheck" href="#fix">FIXTURES</a></li>
+        <li><a id="squad" href="#pla">SQUAD</a></li>
+        <li><a id="brand" href="#braa">BRANDS</a></li>
+        <li>
+          <span class="tag">#PLAY BOLD</span>
+          <img id="logo" src="icons/RCB-NewLOGO-mirror.png" />
+        </li>
+      </ul>
+    </div>
+
+    <div class="front">
+      <div class="auto">
+        <div class="container">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-intervel="2000">
+                <img src="autoSlider/image1.jpg" class="d-block w-100" />
+              </div>
+              <div class="carousel-item" data-intervel="2000">
+                <img src="autoSlider/image2.jpg" class="d-block w-100" />
+              </div>
+              <div class="carousel-item" data-intervel="2000">
+                <img src="autoSlider/image3.jpg" class="d-block w-100" />
+              </div>
+              <div class="carousel-item" data-intervel="2000">
+                <img src="autoSlider/image4.jpg" class="d-block w-100" />
+              </div>
+            </div>
+            <a
+              href="#myCarousel"
+              class="carousel-control-prev"
+              data-slide="prev"
+              ><span class="carousel-control-prev-icon"></span>
+            </a>
+            <a
+              href="#myCarousel"
+              class="carousel-control-next"
+              data-slide="next"
+              ><span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="vote">
+        <p>
+          <i
+            ><span class="the">THE</span>&nbsp;&nbsp;<span class="poll"
+              >POLL</span
+            ></i
+          >
+        </p>
+        <p class="scorer">
+          Who will be the top<br />
+          scorer for RCB this <br />Season?
+        </p>
+
+        <form>
+          <table>
+            <tr>
+              <td><input id="vk" type="radio" name="poll" /></td>
+              <td><span>VIRAT KOHLI</span></td>
+              <td id="result1">52%</td>
+            </tr>
+            <tr>
+              <td><input id="abd" type="radio" name="poll" /></td>
+              <td><span>AB DE VILLIERS</span></td>
+              <td id="result2">30%</td>
+            </tr>
+            <tr>
+              <td><input id="gm" type="radio" name="poll" /></td>
+              <td><span>GLENN MAXWELL</span></td>
+              <td id="result3">18%</td>
+            </tr>
+          </table>
+        </form>
+        <br />
+        <button class="btn-vote">VOTE</button>
+        <br />
+        <br />
+      </div>
+    </div>
+    <div id="braa" class="brands">
+      <center><h1>TEAM PARTNERS</h1></center>
+      <div class="hea">
+        TITLE SPONSPOR
+
+        <br />
+        <img height="15%" width="15%" src="brands/MFL_LOGO-01_small.png" />
+      </div>
+      <div class="hea">
+        PRINCIPAL PARTNERS
+        <br />
+        <img height="12%" width="12%" src="brands/dp-world.png" />&nbsp;&nbsp;
+        <img height="12%" width="12%" src="brands/myntra_0.png" />&nbsp;&nbsp;
+        <img height="12%" width="12%" src="brands/jio_2.png" />&nbsp;&nbsp;
+        <img height="12%" width="12%" src="brands/exide_0.png" />&nbsp;&nbsp;
+        <img height="12%" width="12%" src="brands/nuvoco_0.png" />
+      </div>
+      <div class="hea">
+        ASSOCIATE PARTNERS
+        <br />
+        <img
+          height="12%"
+          width="15%"
+          src="brands/Astral pipes_Blue-01.jpg"
+        />&nbsp;&nbsp;
+        <img height="12%" width="12%" src="brands/MPLlogo.png" />&nbsp;&nbsp;
+        <img height="12%" width="12%" src="brands/maxlife.png" />&nbsp;&nbsp;
+        <img height="12%" width="12%" src="brands/lifebuoy.png" />
+      </div>
+      <div class="hea">
+        OFFICIAL PARTNERS
+        <br />
+        <img height="8%" width="8%" src="brands/kingfisher_1.png" />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/make my trip.png" />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/milo_0.png" />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/wrogn.png" />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/eumu.png" />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/mai dubai.png" />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/medibuddy.png" />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/boat.png" />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/nvy.png" />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/DNA.png" />&nbsp;&nbsp;
+        <img
+          height="8%"
+          width="8%"
+          src="brands/royal challenge_0.png"
+        />&nbsp;&nbsp;
+        <img
+          height="8%"
+          width="8%"
+          src="brands/iB Cricket logo_white background.png"
+        />&nbsp;&nbsp;
+        <img
+          height="8%"
+          width="8%"
+          src="brands/DARK FANTASY_0.png"
+        />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/DAVAINDIA.png" />&nbsp;&nbsp;
+        <img
+          height="8%"
+          width="8%"
+          src="brands/ON - OPTIMUM NUTRITION.png"
+        />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/SWIGGY.png" />&nbsp;&nbsp;
+        <img height="8%" width="8%" src="brands/rainbow.png" />
+      </div>
+    </div>
+    <div id="fix" class="fixtures">
+      <center><h1>FIXTURES</h1></center>
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | APR 09-2021 FRIDAY 7.30 PM (IST)</div>
+        <div class="sp2">MA CHIDAMBARAM STADIUM, CHENNAI</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-mi.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | APR 14-2021 WEDNESDAY 7.30 PM (IST)</div>
+        <div class="sp2">MA CHIDAMBARAM STADIUM, CHENNAI</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-srh.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 D/N | APR 18-2021 SUNDAY 3.30 PM (IST)</div>
+        <div class="sp2">MA CHIDAMBARAM STADIUM, CHENNAI</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-kkr.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | APR 22-2021 THURSDAY 7.30 PM (IST)</div>
+        <div class="sp2">WANKHEDE STADIUM, MUMBAI</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-rr.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 D/N | APR 25-2021 SUNDAY 3.30 PM (IST)</div>
+        <div class="sp2">WANKHEDE STADIUM, MUMBAI</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-csk.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | APR 27-2021 TUESDAY 7.30 PM (IST)</div>
+        <div class="sp2">NARENDRA MODI STADIUM, AHMEDABAD</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-dd.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | APR 30-2021 FRIDAY 7.30 PM (IST)</div>
+        <div class="sp2">NARENDRA MODI STADIUM, AHMEDABAD</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-kxip.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | MAY 03-2021 MONDAY 7.30 PM (IST)</div>
+        <div class="sp2">NARENDRA MODI STADIUM, AHMEDABAD</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-kkr.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | MAY 06-2021 THURSDAY 7.30 PM (IST)</div>
+        <div class="sp2">NARENDRA MODI STADIUM, AHMEDABAD</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-kxip.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | MAY 09-2021 SUNDAY 7.30 PM (IST)</div>
+        <div class="sp2">EDEN GARDENS, KOLKATA</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-srh.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | MAY 14-2021 FRIDAY 7.30 PM (IST)</div>
+        <div class="sp2">EDEN GARDENS, KOLKATA</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-dd.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 D/N | MAY 16-2021 SUNDAY 3.30 PM (IST)</div>
+        <div class="sp2">EDEN GARDENS, KOLKATA</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-rr.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | MAY 20-2021 THURSDAY 7.30 PM (IST)</div>
+        <div class="sp2">EDEN GARDENS, KOLKATA</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-mi.png" /></span>
+      </div>
+
+      <div class="fix1">
+        <div class="sp1">IPL T20 (N) | MAY 23-2021 SUNDAY 7.30 PM (IST)</div>
+        <div class="sp2">EDEN GARDENS, KOLKATA</div>
+      </div>
+      <div class="fix2">
+        <span><img src="teamLogo/ipl-rcb.png" /></span>
+        <span class="vs">vs</span>
+        <span><img src="teamLogo/ipl-csk.png" /></span>
+      </div>
+      <br />
+    </div>
+    <div id="pla" class="squad">
+      <center><h1 class="content1">THE SQUAD</h1></center>
+      <div class="first">
+        <div>
+          <img height="600px" width="400px" src="players/vk.png" />
+          <p class="playT">VIRAT KOHLI(C)<br />BATSMAN</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/ABD rcb.png" />
+          <p class="playT">AB DE VILLIERS<br />WICKET KEEPER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Maxwell RCB.png" />
+          <p class="playT">GLEN MAXWELL<br />ALL-ROUNDER</p>
+        </div>
+        <div>
+          <img
+            height="600px"
+            width="400px"
+            src="players/Devdutt Padikkal.png"
+          />
+          <p class="playT">DEVUDTT PADIKKAL<br />BATSMAN</p>
+        </div>
+        <div>
+          <img
+            height="600px"
+            width="400px"
+            src="players/Washington Sundar.png"
+          />
+          <p class="playT">WASHINGTON SUNDAR<br />ALL-ROUNDER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/AdamZampa_0.png" />
+          <p class="playT">ADAM-ZAMPA<br />BOWLER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Dan Christian.png" />
+          <p class="playT">DAN CHRISTIAN<br />ALL-ROUNDER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Daniel Sams.png" />
+          <p class="playT">DANIEL SAM<br />ALL-ROUNDER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Finn.png" />
+          <p class="playT">FINN ALLEN<br />WICKET KEEPER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Harshal Patel.png" />
+          <p class="playT">HARSHAL PATEL<br />BOWLER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Kane Richardson.png" />
+          <p class="playT">KANE RICHARDSON<br />BOWLER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/KS Bharat.png" />
+          <p class="playT">KS BHARAT<br />WICKET KEEPER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Kyle Jamieson.png" />
+          <p class="playT">KYLE JAMIESON<br />ALL-ROUNDER</p>
+        </div>
+        <div>
+          <img
+            height="600px"
+            width="400px"
+            src="players/Mohammed Azharuddeen.png"
+          />
+          <p class="playT">MOHAMMED AZHARUDDEN<br />WICKET KEEPER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Mohammed Siraj.png" />
+          <p class="playT">MOHAMMED SIRAJ<br />BOWLER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Navdeep Saini.png" />
+          <p class="playT">NAVDEEP SAINI<br />BOWLER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Pavan Deshpande.png" />
+          <p class="playT">PAVAN DESHPANDE<br />ALL-ROUNDER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/rajat Patidar.png" />
+          <p class="playT">RAJAT PATIDAR<br />BATSMAN</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Sachin Baby.png" />
+          <p class="playT">SACHIN BABY<br />BATSMAN</p>
+        </div>
+        <div>
+          <img
+            height="600px"
+            width="400px"
+            src="players/Yuzvendra Chahal.png"
+          />
+          <p class="playT">YUZVENDRA CHAHAL<br />BOWLER</p>
+        </div>
+        <div>
+          <img height="600px" width="400px" src="players/Shahbaz Ahmed.png" />
+          <p class="playT">SHAHBAZ AHMED<br />ALL-ROUNDER</p>
+        </div>
+        <div>
+          <img
+            height="600px"
+            width="400px"
+            src="players/Suyash Prabhudessai.png"
+          />
+          <p class="playT">SUYASH PRABHUDESSAI<br />BATSMAN</p>
+        </div>
+      </div>
+    </div>
+    <div class="social">
+      <center class="content1">SOCIAL WALL</center>
+      <div class="handle">
+        <div class="part">
+          <b>@RCB Tweets</b>
+          <img src="social/social1.jpg" id="social1" />
+          <hr />
+          <p id="social1-content">
+            When powerhouses join forces to compete. It’s gonna be an amazing
+            ride @pumacricket. #PlayBold #WeAreChallengers #RCBxPUMA
+          </p>
+        </div>
+        &nbsp;&nbsp;
+        <div class="part">
+          <b>@RCB Tweets</b><img src="social/social2.jpg" id="social1" />
+          <hr />
+          <p id="social1-content">
+            He snaps his fingers and half the records others hold would
+            disappear Smiling face with sunglasses Captain Kohli broke digit six
+            records over the course of the T20I and ODI series against Flag of
+            England #PlayBold #WeAreChallengers #INDvENG
+          </p>
+        </div>
+        &nbsp;&nbsp;
+        <div class="part">
+          <b>@RCB Tweets</b>
+          <img src="social/social3.jpg" id="social1" />
+          <hr />
+          <p id="social1-content">
+            India v England 3rd ODI Review A game that left us gasping for
+            breath. Lookback on a victory that gave Team 🇮🇳 the ODI series and
+            with it sweep the season against 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+          </p>
+        </div>
+        &nbsp;&nbsp;
+        <div class="part">
+          <b>@RCB Tweets</b><img src="social/social4.jpg" id="social1" />
+          <hr />
+          <p id="social1-content">
+            Bold Diaries: Team India to RCB Yuzvendra Chahal and Mohammed Siraj
+            joined the RCB camp ahead of Vivo IPL 2021. On @myntra presents Bold
+            Diaries, we show you how the RCB crew enjoyed having the entire
+            aircraft for themselves.
+          </p>
+        </div>
+        &nbsp;&nbsp;
+        <div class="part">
+          <b>@RCB Tweets</b><img src="social/social5.jpg" id="social1" />
+          <hr />
+          <p id="social1-content">
+            They've done it in the Blue, and they’ve done it in the whites for
+            Team Flag of India. Now they are set to take the #IPL2021 stage by
+            storm in the Red and Gold Smiling face with sunglasses #PlayBold
+            #WeAreChallengers #IPL2021 #Classof2021
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile">
+      <div class="app"><img src="icons/stay-connected.png" /></div>
+      <div class="write">
+        <h1>GET ACCESS TO EXCLUSIVE</h1>
+        <p class="content">RCB CONTENT</p>
+        <p class="ww">
+          <span class="number">01</span>&nbsp;<span>LIVE VIDEOS</span
+          >&nbsp;&nbsp; <span class="number">02</span>&nbsp;<span
+            >CHAT WITH PLAYERS</span
+          >&nbsp;&nbsp; <span class="number">03</span>&nbsp;<span
+            >LIVE SCORES</span
+          >&nbsp;&nbsp; <span class="number">04</span>&nbsp;<span
+            >CONNECT WITH FANS</span
+          >&nbsp;&nbsp;
+        </p>
+        <br />
+        <div>
+          <a
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.interactech.rcb&hl=en_IN"
+            ><img src="icons/google-play.png" /></a
+          >&nbsp;&nbsp;<a
+            target="_blank"
+            href="https://apps.apple.com/in/app/rcb-official-app/id516455943"
+            ><img src="icons/app-store.png"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="enndd" class="end">
+      <div>
+        <ul>
+          <li>
+            <img id="logo" src="icons/RCB-NewLOGO.png" /><span class="tag"
+              >#PLAY BOLD</span
+            >
+          </li>
+          <li>&nbsp;</li>
+          <li><a href="#top">⬆ MOVE TO TOP ⬆</a></li>
+        </ul>
+      </div>
+      <div class="marji">
+        <span class="soc"
+          ><a
+            target="_blank"
+            class="gy"
+            href="https://www.instagram.com/_kalrark_/?igshid=1mjtufqhitqf9"
+            ><img class="endSoc" src="socio/instagram.png" /></a></span
+        ><span class="soc"
+          ><a
+            target="_blank"
+            class="gy"
+            href="https://www.linkedin.com/in/rishav-kalra-93291b195/"
+            ><img class="endSoc" src="socio/linkedin.png" /></a></span
+        ><span class="soc"
+          ><a
+            target="_blank"
+            class="gy"
+            href="https://github.com/rishav1710?tab=repositories"
+            ><img class="endSoc" src="socio/github.png" /></a></span
+        ><span class="soc"
+          ><a
+            target="_blank"
+            class="gy"
+            href="https://mobile.twitter.com/KalraRishav"
+            ><img class="endSoc" src="socio/twitter.png" /></a
+        ></span>
+        <div class="connect">Connect With Us</div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="last">© Rishav Kalra Pvt.Ltd</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
